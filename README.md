@@ -1,1 +1,1 @@
-#Computer Graphics homework files
+Computer Graphics homework files
