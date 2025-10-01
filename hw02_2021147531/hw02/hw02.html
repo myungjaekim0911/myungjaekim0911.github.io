@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hw02</title>
+    <style>
+        html, body { margin:0; height:100%; }
+        #stage { position:relative; width:100%; height:100%; }
+        #glCanvas { display:block; outline:none; }
+        #hint {
+            position:absolute;
+            top:8px; 
+            left:8px;
+            color:#fff; 
+        }
+    </style>
+<body>
+    <div id="stage">
+        <canvas id="glCanvas" tabindex="0"></canvas>
+        <div id="hint">Use arrow keys to move the rectangle</div>
+    </div>
+    <script type="module" src="hw02.js"></script>
+</body>
+</html>
