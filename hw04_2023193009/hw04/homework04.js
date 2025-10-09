@@ -106,7 +106,7 @@ function render(currentTime) {
     mat4.translate(bigBlade, bigBlade, center);
     mat4.rotate(bigBlade, bigBlade, Math.sin(elapsedTime) * Math.PI * 2.0, [0, 0, 1]);
     mat4.scale(bigBlade, bigBlade, [2.5, 0.4, 1]);
-    drawRect(bigBlade, [1.0, 1.0, 1.0, 0.1]);
+    drawRect(bigBlade, [1.0, 1.0, 1.0, 1.0]);
 
     // small blades (gray)
     const smallBladeOffsets = [
@@ -151,3 +151,4 @@ async function main() {
         return false;
     }
 }
+
